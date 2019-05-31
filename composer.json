@@ -36,5 +36,15 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gowebpro\\Infoflot\\InfoflotServiceProvider"
+            ],
+            "aliases": {
+                "Infoflot": "Gowebpro\\Infoflot\\InfoflotFacade"
+            }
+        }
     }
 }
